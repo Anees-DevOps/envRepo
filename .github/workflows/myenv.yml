@@ -22,7 +22,7 @@ jobs:
       - name: Deploy to OneBox
         run: |
           echo "Deploying to OneBox environment"
-          sleep 5
+          sleep 3
           echo "OneBox Deployment Successful"
 
   staging:
