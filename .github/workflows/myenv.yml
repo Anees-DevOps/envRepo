@@ -15,15 +15,7 @@ jobs:
           sleep 3  # Simulating test execution
           echo "Tests Passed"
 
-  onebox:
-    runs-on: ubuntu-latest
-    needs: test-suite
-    steps:
-      - name: Deploy to OneBox
-        run: |
-          echo "Deploying to OneBox environment"
-          sleep 3
-          echo "OneBox Deployment Successful"
+
 
   staging:
     runs-on: ubuntu-latest
